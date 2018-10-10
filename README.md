@@ -9,5 +9,6 @@ sh main.sh
 
 crontab -e
 0 */12 * * * /usr/bin/sh ~/main.sh
+
 @reboot (sleep 90; /usr/bin/sh ~//main.sh)
 
